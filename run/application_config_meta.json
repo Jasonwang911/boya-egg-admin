@@ -1,0 +1,324 @@
+{
+  "cluster": {
+    "listen": {
+      "path": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+      "port": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+      "hostname": "D:\\jason\\github\\egg-socket\\config\\config.default.js"
+    }
+  },
+  "keys": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+      "ignoreJSON": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+      "type": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+    "protocolWhiteList": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+    "allowMethods": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+    "credentials": "D:\\jason\\github\\egg-socket\\config\\config.default.js"
+  },
+  "io": {
+    "init": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+        "packetMiddleware": "D:\\jason\\github\\egg-socket\\config\\config.default.js"
+      },
+      "/msg": {
+        "connectionMiddleware": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+        "packetMiddleware": "D:\\jason\\github\\egg-socket\\config\\config.default.js"
+      }
+    }
+  },
+  "middleware": "D:\\jason\\github\\egg-socket\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\jason\\github\\egg-socket\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\jason\\github\\egg-socket\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\jason\\github\\egg-socket\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\jason\\github\\egg-socket\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\jason\\github\\egg-socket\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\jason\\github\\egg-socket\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\jason\\github\\egg-socket\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\jason\\github\\egg-socket\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\jason\\github\\egg-socket\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\jason\\github\\egg-socket\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\jason\\github\\egg-socket\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\jason\\github\\egg-socket\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\jason\\github\\egg-socket\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\jason\\github\\egg-socket\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\jason\\github\\egg-socket\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\jason\\github\\egg-socket\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\jason\\github\\egg-socket\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\jason\\github\\egg-socket\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\jason\\github\\egg-socket\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\jason\\github\\egg-socket\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\jason\\github\\egg-socket\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\jason\\github\\egg-socket\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\jason\\github\\egg-socket\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\jason\\github\\egg-socket\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\jason\\github\\egg-socket\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\jason\\github\\egg-socket\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\jason\\github\\egg-socket\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\jason\\github\\egg-socket\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "@pick-star/cli-mongodb": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-socket.io": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "ejs": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "fs-extra": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "glob": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "npmlog": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\jason\\github\\egg-socket\\node_modules\\egg\\config\\config.default.js"
+}
